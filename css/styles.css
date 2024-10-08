@@ -145,3 +145,12 @@ video {
 .about-video {
   margin: 100px auto 100px;
 }
+
+.how-we-work .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.hww-img {
+  margin: 100px auto;
+}
