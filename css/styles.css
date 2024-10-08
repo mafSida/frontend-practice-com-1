@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+img {
+  display: block;
+}
+
 .container {
   background-color: #ffffff;
   max-width: 1188px;
@@ -76,8 +80,61 @@ a {
 }
 .side-menu-link {
   font-weight: 700;
+  font-size: 20px;
 }
 
 .accent-2 {
   color: rgb(0, 0, 255);
+}
+
+.line {
+  background-color: #f3f3f3;
+  height: 2px;
+}
+
+.secondary-nav-menu {
+}
+
+.secondary-nav-list {
+  display: flex;
+  gap: 20px;
+}
+
+.secondary-nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.hero {
+}
+.container {
+}
+.hero .container {
+  padding-bottom: 80px;
+}
+
+.hero-image {
+  margin: 0 auto;
+}
+
+.hero-text-wrap {
+  max-width: 900px;
+  margin: 120px auto 0;
+}
+
+.hero-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 42px;
+}
+.hero-description {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.img-section .container {
+  height: 100vh;
+  background-image: url(/img/section-2-bg.png);
+  background-repeat: no-repeat;
 }
