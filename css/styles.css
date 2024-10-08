@@ -13,7 +13,8 @@ a {
   text-decoration: none;
 }
 
-img {
+img,
+video {
   display: block;
 }
 
@@ -115,26 +116,32 @@ img {
 }
 
 .hero-image {
+  margin: 0 auto 120px;
+}
+
+.text-wrap {
+  max-width: 900px;
   margin: 0 auto;
 }
 
-.hero-text-wrap {
-  max-width: 900px;
-  margin: 120px auto 0;
-}
-
-.hero-title {
+.title {
   font-weight: 700;
   font-size: 30px;
   line-height: 42px;
 }
-.hero-description {
+.description {
   font-size: 20px;
   line-height: 30px;
 }
 
 .img-section .container {
-  height: 100vh;
-  background-image: url(/img/section-2-bg.png);
-  background-repeat: no-repeat;
+}
+
+.about .container {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.about-video {
+  margin: 100px auto 100px;
 }
