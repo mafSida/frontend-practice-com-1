@@ -3,6 +3,12 @@ body {
   background-color: #f3f3f3;
 }
 
+h1,
+h2,
+p {
+  margin: 0;
+}
+
 ul {
   list-style-type: none;
   padding-left: 0;
@@ -128,6 +134,7 @@ video {
   font-weight: 700;
   font-size: 30px;
   line-height: 42px;
+  margin-bottom: 28px;
 }
 .description {
   font-size: 20px;
@@ -153,4 +160,108 @@ video {
 
 .hww-img {
   margin: 100px auto;
+}
+
+.employment .container {
+  padding: 100px 0 100px;
+}
+
+.jobs-wrap {
+  width: 1000px;
+  height: 492px;
+  display: flex;
+  margin: 80px auto 0;
+}
+
+.jobs-right {
+  background-color: #b1c5ff;
+  width: 50%;
+  height: 100%;
+  padding-top: 120px;
+}
+
+.jobs-text-wrap {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.jobs-text {
+}
+.jobs-link {
+}
+
+.line.bottom {
+  height: 4px;
+}
+
+.footer .container {
+  padding: 120px 100px;
+}
+
+.footer-title {
+  font-size: 30px;
+  line-height: 42px;
+  font-weight: 700;
+}
+.footer-menu-wrap {
+  display: flex;
+}
+.footer-submenu-wrap {
+}
+.footer-list {
+}
+.footer-item {
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.footer-socials-list {
+}
+.footer-socials-item {
+}
+.footer-socials {
+}
+.footer-socials-icon {
+}
+
+.footer-list {
+  width: 200px;
+}
+
+.footer-list-2 {
+  width: 400px;
+}
+.footer-item {
+}
+.footer-subtitle {
+  font-weight: 700;
+}
+.footer-newsletter-wrap {
+}
+
+.footer-input-field {
+  display: flex;
+}
+
+.footer-newsletter-input {
+  height: 32px;
+  width: 350px;
+  flex-grow: 1;
+  border: none;
+  background-color: #efefef;
+}
+
+.footer-signup-btn {
+  color: #ffffff;
+  background-color: #0000ff;
+  border: none;
+  outline: transparent;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  height: 32px;
+  font-weight: 500;
 }
